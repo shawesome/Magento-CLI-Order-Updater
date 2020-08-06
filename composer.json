@@ -1,0 +1,26 @@
+{
+  "name": "shawesome/Magento-CLI-Order-Updater",
+  "description": "",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "~7.3.0",
+    "magento/framework": "103.0.*",
+    "magento/module-sales": "103.0.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Martinshaw\\CLIOrderUpdater\\": ""
+    }
+  },
+  "version": "1.0.0"
+}
