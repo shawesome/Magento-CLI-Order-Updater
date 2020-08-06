@@ -1,5 +1,5 @@
 {
-  "name": "shawesome/Magento-CLI-Order-Updater",
+  "name": "shawesome/magento-cli-order-updater",
   "description": "",
   "config": {
     "sort-packages": true
