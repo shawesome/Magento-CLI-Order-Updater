@@ -13,7 +13,13 @@ composer config repositories.martinshaw-cli-order-updater git "https://github.co
 composer require shawesome/magento-cli-order-updater
 ```
 
-Ensure your magento cache is flushed and your DI is recompiled (depending on your configuration).
+You'll then need to run the usual commands following a module install.
+
+```
+bin/magento setup:upgrade
+bin/magento setup:di:compile
+bin/magento cache:clean
+```
 
 ## Usage
 
