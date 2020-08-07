@@ -1,6 +1,6 @@
 # Magento CLI Order Updater
 
-##Installation
+## Installation
 
 The module can be installed via composer with the following commands.
 
