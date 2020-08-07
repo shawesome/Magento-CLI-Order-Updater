@@ -1,5 +1,9 @@
 # Magento CLI Order Updater
 
+## Compatibility
+
+This module has been built and tested against Magento 2.4.0, it will likely work with previous versions but this is untested.
+
 ## Installation
 
 The module can be installed via composer with the following commands.
