@@ -13,3 +13,25 @@ Ensure your magento cache is flushed and your DI is recompiled (depending on you
 
 ## Usage
 
+The command can be run with the following from the Magento install's root directory.
+
+```
+bin/magento martinshaw:orderupdate <identifier>
+```
+
+Where `<identifier>` is either an order's entity ID or a customer email address.identifier
+
+Assuming there are matches, you'll then see a prompt showing a list of orders.
+
+```
+Found 2 matching order(s). 
++-----------+--------------+----------------+-------------+
+| Entity ID | Increment ID | Customer Email | Grand Total |
++-----------+--------------+----------------+-------------+
+| 1         | 000000001    | martin@foo.com | 36.3900     |
+| 2         | 000000002    | martin@foo.com | 39.6400     |
++-----------+--------------+----------------+-------------+
+```
+
+You will be prompted for a new email address to update the listed orders.
+
