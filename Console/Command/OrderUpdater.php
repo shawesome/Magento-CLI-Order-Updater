@@ -118,7 +118,7 @@ class OrderUpdater extends Command
      */
     protected function outputSearchResults(OutputInterface $output, array $orders): void
     {
-        $output->writeln('<info>Found ' . count($orders) . ' matching orders. </info>');
+        $output->writeln('<info>Found ' . count($orders) . ' matching order(s). </info>');
         $tableRows = [];
         foreach ($orders as $order) {
             $tableRows [] = [
